@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
     println(charA.isUpperCase())
     println(charA.isLowerCase())
     println(charA.isDigit())
-    println(charA.toLowerCase())
+    println(charA.lowercaseChar())
     val strA: String = charA.toString()
-    println("Kini charA sudah menjadi String = "+strA)
+    println("Kini char A sudah menjadi String = "+strA)
 }
